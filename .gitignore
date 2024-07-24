@@ -1,0 +1,8 @@
+.venv/
+.idea/
+desktop.ini
+update.*
+tmp.*
+temp.*
+*.tmp
+*.temp
