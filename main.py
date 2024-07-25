@@ -1,10 +1,11 @@
 import sys
+import os
 import tkinter as tk
 from tkinter.messagebox import showwarning
 from _tkinter import TclError
 
-with open('DEBUG') as f:
-    DEBUG = bool(f.readline() == 'True')
+# Must be False!!
+DEBUG = os.path.isfile('DEBUG')
 
 
 class MainWindow:
